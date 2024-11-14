@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prateleira Literária</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Prateleira Literária</h1>
+        <p>Organize suas leituras, compartilhe resenhas e faça seus desejos!</p>
+    </header>
+
+    <section id="multimidia">
+        <video controls width="320">
+            <source src="videoplayback.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+    </section>
+
+    <section>
+        <h2>Livros Disponíveis</h2>
+        <table>
+            <tr>
+                <th>Livro</th>
+                <th>Autor</th>
+                <th>Ano</th>
+                <th>Avaliação</th>
+            </tr>
+            <tr>
+                <td>Memórias Póstumas de Brás Cubas</td>
+                <td>Machado de Assis</td>
+                <td>1881</td>
+                <td>★★★★★</td>
+            </tr>
+            <tr>
+                <td>A Hora da Estrela</td>
+                <td>Clarice Lispector</td>
+                <td>1977</td>
+                <td>★★★★☆</td>
+            </tr>
+            <tr>
+                <td>Mensagem</td>
+                <td>Fernando Pessoa</td>
+                <td>1934</td>
+                <td>★★★★☆</td>
+            </tr>
+            <tr>
+                <td>Meu Pé de Laranja Lima</td>
+                <td>José Mauro de Vasconcelos</td>
+                <td>1968</td>
+                <td>★★★★★</td>
+            </tr>
+          
+        </table>
+    </section>
+
+    <section id="resenhas">
+        <h2>Deixe sua Resenha</h2>
+        <form>
+            <label for="livro">Livro:</label>
+            <input type="text" id="livro" name="livro"><br><br>
+
+            <label for="autor">autor:</label>
+            <input type="text" id="autor" name="autor"><br><br>
+            
+             <label for="ano">Ano:</label>
+            <input type="text" id="ano" name="ano"><br><br>
+
+            <label for="comentario">Comentário:</label><br>
+            <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
+
+            <button type="submit">Enviar Resenha</button>
+        </form>
+    </section>
+
+    <section id="desejos">
+        <h2>Lista de Desejos</h2>
+        <p>Adicione aqui os livros que deseja receber de presente:</p>
+        <ul>
+            <li>Grande Sertão: Veredas - Guimarães Rosa</li>
+            <li>1984 - George Orwell</li>
+            <li>Orgulho e Preconceito - Jane Austen</li>
+            <li>O cemitério das palavras que eu nunca disse - Julia Coelho</li>
+
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Prateleira Literária - Compartilhe seus sonhos literários</p>
+    </footer>
+    
+</body>
+</html>
